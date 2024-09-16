@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flex box 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <style>
+.search-section{
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(113, 4, 181);
+    padding-top: 10px;
+    margin-bottom: -5px;
+    color: white;
+}
+.left-sec{
+    width: 200px;
+    margin-left: 8px;
+    font-style: Roboto;
+ }
+.mid-sec{
+    flex: 1;
+    margin-left: 100px;
+    width: 600px
+ }
+ .search-bar{
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 500px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 20px;
+    border-style: none;
+ }
+ .right-sec{
+    width: 100px;
+    margin-left: 500px;
+    margin-right:;
+ }
+ .dn-button{
+    background-color: rgb(113, 4, 181);
+    font-family: Roboto;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+ }
+    </style>
+</head>
+<body>
+    <div class="search-section">
+        <div class="left-sec">Home</div>
+        <div class="mid-sec">
+            <input class="search-bar" type="text" placeholder="Search">
+        </div>
+        <div class="right-sec">
+            <button class="dn-button">Download</button>
+        </div>
+    </div>
+</body>
+</html>
